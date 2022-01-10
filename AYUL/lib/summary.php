@@ -1,0 +1,12 @@
+<?php
+session_start();
+if(isset($_SESSION["shoppingcart"])){
+	$shoppingcart=$_SESSION["shoppingcart"];
+	$total_count=$shoppingcart["summary"]["total_count"];
+	$total=$shoppingcart["summary"]["total"];
+	$shopping_products=$shoppingcart["products"];
+}else{
+	$total_count=0;
+	$total=0;
+}
+?>
