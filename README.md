@@ -3,9 +3,9 @@
  
 GENEL BİLGİLER
 
-Frontend: HTML, CSS
+Frontend: HTML, CSS,JAVASCRIPT
 
-Backend: PHP,JAVASCRIPT
+Backend: PHP
 
 Kütüphane: BOOTSTRAP4
 
